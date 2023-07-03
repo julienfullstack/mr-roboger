@@ -4,7 +4,7 @@
 
 #### _A webpage which takes a number from a user and returns a list of values._
 
-[GitHub Pages Site](https://julienlen.github.io/calculator)
+[GitHub Pages Site](https://julienlen.github.io/mr-roboger/)
 
 [Repo](https://github.com/julienlen/mr-roboger.git) 
 
