@@ -11,3 +11,7 @@ Expected Output: [0,"Beep"]
 Test: "It should replace numbers that contain a "2" with "Boop"
 Code: beepBoop(2)
 Expected Output: [0, "Beep", "Boop"]
+
+Test: "It should return a message if the user input is not a number"
+Code: beepBoop(hello);
+Expected Output: Sorry, your input is not a number!
