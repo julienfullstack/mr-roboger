@@ -1,0 +1,38 @@
+body {
+  background-color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+select {
+  font-size: 20px;
+}
+
+button {
+ font-size: 20px;
+ font-style: italic;
+}
+
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+h2 {
+  color:blue;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  color:blue;
+  font-style: italic;
+}
+
+
+@media screen and (max-width: 1000px) 
+  .column {
+    display: inline-block;
+    viewport-fit: auto;
+  }
