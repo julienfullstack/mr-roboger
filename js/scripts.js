@@ -15,8 +15,18 @@ function beepBoop(userInput) {
     return "Sorry, your input is not a number!";
   } else {
     const inputArray = Array.from(userInput.toString());
-    inputArray.unshift("0");
-    const outputArray = inputArray.map((digit) => (digit === "1" ? "Beep" : digit));
-    return outputArray;
-  }
-}
+    const finalOutput = [];
+    for (let i = 0; i < inputArray.length; i++) {
+      unless (!inputArray[i].includes('3')) {
+        finalOutput.push("Won't you be my neighbor?");
+      } unless (!inputArray[i].includes('2')) {
+        finalOutput.push("Boop");
+      } unless (!inputArray[i].includes('1')) {
+        finalOutput.push("Beep");
+      } else {
+        finalOutput.push(inputArray[i]);
+      }
+    }
+    return finalOutput.join("");
+    }
+   }
