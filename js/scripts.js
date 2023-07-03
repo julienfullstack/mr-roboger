@@ -19,11 +19,11 @@ function beepBoop(userInput) {
 
     for (let i = 0; i < inputArray.length; i++) {
       if (inputArray[i].includes('3')) {
-        finalOutput.push("Won't you be my neighbor?");
+        finalOutput.splice(0, 1,"Won't you be my neighbor?");
       } else if (inputArray[i].includes('2')) {
-        finalOutput.push("Boop!");
+        finalOutput.splice(0, 1, "Boop!");
       } else if (inputArray[i].includes('1')) {
-        finalOutput.push("Beep!");
+        finalOutput.splice(0, 1, "Beep!");
       } else {
         finalOutput.push(inputArray[i]);
       }
