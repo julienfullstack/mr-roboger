@@ -7,11 +7,18 @@ window.addEventListener("load", function() {
 
 function handleFormSubmission(event) {
   event.preventDefault();
-  let input = document.getElementById("input").value;
+  let userInput = document.getElementById("input").value;
   document.getElementById("output").innerText = beepBoop(input);
 }
 
 
-function beepBoop(input) {
-  const inputArray = (Array.from('input'))
+function beepBoop(userInput) {
+  if (typeof userInput !== "number") {
+    return "Sorry, your input is not a number!";
+  }
+  
+  const inputArray = Array.from(userInput.toString());
+  inputArray.unshift("0");
+
+  return inputArray;
 }
