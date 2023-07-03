@@ -13,7 +13,7 @@
 * _HTML_
 * _CSS_
 * _Git_
-*_Java Script_
+* _Java Script_
 
 ## Description
 
