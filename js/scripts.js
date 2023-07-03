@@ -1,11 +1,13 @@
 /// BUSINESS LOGIC ///
-window.addEventListener("load", function() { let form = document.getElementById("form"); let submit = document.querySelector("#form button[type='submit']"); submit.addEventListener("click", handleFormSubmission); });
+window.addEventListener("load", function() { 
+  document.querySelector("form#form").addEventListener("submit", handleFormSubmission);
+  });
 
 function handleFormSubmission(event) {
   event.preventDefault();
-  let userInput = document.getElementById("input").value;
-  let outputArray = beepBoop(userInput);
-  document.getElementById("output").innerText = outputArray.join(", ");
+  const userInput = document.getElementById("input").value;
+  const finalOutput = beepBoop(userInput);
+  document.getElementById("output").innerText = finalOutput;
 }
 
 function beepBoop(userInput) {
