@@ -14,10 +14,7 @@
 * _CSS_
 * _Java Script_
 * _Git_
-<<<<<<< HEAD
-=======
 * _Java Script_
->>>>>>> c0548a6dda1fceef8e1953e575ddc6ce6f37f175
 
 ## Description
 
