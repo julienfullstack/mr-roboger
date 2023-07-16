@@ -12,15 +12,15 @@
 
 * _HTML_
 * _CSS_
+* _Java Script_
 * _Git_
-*_Java Script_
 
 ## Description
 
 A simple website which takes an inputted number from the user and returns a list of values from 0 to the user's inputted number with the following subsitutions: 
-*_For numbers that contain a 1, all digits are replaced with "Beep!"
-*_For numbers that contain a 2, all digits are replaced with "Boop!"
-*_For numbers that contain a 3, all digits are replaced with "Won't you be my neighbor?"
+* _For numbers that contain a 1, all digits are replaced with "Beep!"_
+* _For numbers that contain a 2, all digits are replaced with "Boop!"_
+* _For numbers that contain a 3, all digits are replaced with "Won't you be my neighbor?"_
 
 ## Setup/Installation Requirements
 
